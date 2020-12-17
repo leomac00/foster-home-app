@@ -1,0 +1,29 @@
+* {
+  /* o '*' serve para definir estilos para o documento inteiro*/
+  margin: 0; /* sem margem */
+  padding: 0; /* sem preenchimento */
+  box-sizing: border-box;
+  
+}
+
+body {
+  height: 100vh; /* define a altura do escopo atual*/
+  color: white;
+  background: #ebf2f5;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body,
+input,
+button,
+textarea {
+  font-size: 1rem;
+  line-height: 1;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  /* ou de maneira mais resumida: */
+  font: 400 1.8rem/1 "Nunito", sans-serif;
+}
